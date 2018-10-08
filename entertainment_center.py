@@ -25,3 +25,7 @@ warrior = media.Movie("Warrior",
 transporter_2 = media.Movie("Transporter 2",
             "https://upload.wikimedia.org/wikipedia/en/e/eb/The_Transporter_2_poster.jpg",
             "https://www.youtube.com/watch?v=sYJ5LDoWRT4")
+
+#Creating a list of movies needed as input to the website
+movies = [the_line_king,a_beautiful_mind,the_matrix,source_code,warrior,transporter_2]
+fresh_tomatoes.open_movies_page(movies)
